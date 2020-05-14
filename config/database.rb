@@ -6,7 +6,8 @@ configure do
 
   set :database, {
     adapter: "sqlite3",
-    database: "db/db.sqlite3"
+    database: "postgres://uyotzdbesadrez:398ec94feab72996c199fdf3588711718c2e83e3b610ee1b74a221f95dbd28ce@ec2-54-147-209-121.compute-1.amazonaws.com:5432/db531k09s4jjl5"
+    # database: "db/db.sqlite3"
   }
 
   # Load all models from app/models, using autoload instead of require
